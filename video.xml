@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="GitLab" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
+   <default revision="refs/heads/master" remote="GitLab" sync-j="4" />
+   <project name="eis-core" remote="GitLab" path="IEdgeInsights" />
+   <project name="video-common" remote="GitLab" path="IEdgeInsights/common/openvino" />
+   <project name="video-ingestion" remote="GitLab" path="IEdgeInsights/VideoIngestion" />
+   <project name="video-analytics" remote="GitLab" path="IEdgeInsights/VideoAnalytics" />
+   <project name="video-native-visualizer" remote="GitLab" path="IEdgeInsights/Visualizer" />
+   <project name="video-web-visualizer" remote="GitLab" path="IEdgeInsights/WebVisualizer" />
+   <project name="eis-influxdb-connector" remote="GitLab" path="IEdgeInsights/InfluxDBConnector" />
+   <project name="video-imagestore" remote="GitLab" path="IEdgeInsights/ImageStore" />
+   <!-- <project name="eis-factoryctrl" remote="GitLab" path="IEdgeInsights/FactoryControlApp" />
+   <project name="eis-opcua-export" remote="GitLab" path="IEdgeInsights/OpcuaExport" />
+   <project name="eis-rest-data-export" remote="GitLab" path="IEdgeInsights/RestDataExport" /> -->
+</manifest>
