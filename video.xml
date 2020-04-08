@@ -2,15 +2,31 @@
 <manifest>
    <remote name="GitLab" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
    <default revision="refs/heads/master" remote="GitLab" sync-j="4" />
-   <project name="eis-core" remote="GitLab" path="IEdgeInsights" />
-   <project name="video-common" remote="GitLab" path="IEdgeInsights/common/openvino" />
-   <project name="video-ingestion" remote="GitLab" path="IEdgeInsights/VideoIngestion" />
-   <project name="video-analytics" remote="GitLab" path="IEdgeInsights/VideoAnalytics" />
-   <project name="video-native-visualizer" remote="GitLab" path="IEdgeInsights/Visualizer" />
-   <project name="video-web-visualizer" remote="GitLab" path="IEdgeInsights/WebVisualizer" />
-   <project name="eis-influxdb-connector" remote="GitLab" path="IEdgeInsights/InfluxDBConnector" />
-   <project name="video-imagestore" remote="GitLab" path="IEdgeInsights/ImageStore" />
-   <!-- <project name="eis-factoryctrl" remote="GitLab" path="IEdgeInsights/FactoryControlApp" />
-   <project name="eis-opcua-export" remote="GitLab" path="IEdgeInsights/OpcuaExport" />
-   <project name="eis-rest-data-export" remote="GitLab" path="IEdgeInsights/RestDataExport" /> -->
+
+   <!-- EIS core service -->
+   <project name="eis-core" path="IEdgeInsights" />
+
+   <!-- Start: EIS services for video use case -->
+   <project name="video-common" path="IEdgeInsights/common/openvino" />
+   <project name="video-ingestion" path="IEdgeInsights/VideoIngestion" />
+   <project name="video-analytics" path="IEdgeInsights/VideoAnalytics" />
+   <project name="video-native-visualizer" path="IEdgeInsights/Visualizer" />
+   <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
+   <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
+   <project name="video-imagestore" path="IEdgeInsights/ImageStore" />
+   <!-- End: EIS services for video use case -->
+
+   <!-- Start: Optional EIS services for video use case (uncomment the ones required) -->
+   <!-- <project name="eis-factoryctrl" path="IEdgeInsights/FactoryControlApp" /> -->
+   <!-- <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" /> -->
+   <!-- <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" /> -->
+   <!-- End: Optional EIS services for video use case (uncomment the ones required) -->
+
+   <!-- Start: Optional EIS Ingredient components for video use case (uncomment the ones required) -->
+   <!-- <project name="installer" path="installer" /> -->
+   <!-- <project name="orchestrator" path="orchestrator" /> -->
+   <!-- <project name="manageability" path="manageability" /> -->
+   <!-- <project name="training-and-learning-suite" path="training-and-learining-suite" /> -->
+   <!-- End: Optional EIS Ingredient components for video use case (uncomment the ones required) -->
+
 </manifest>

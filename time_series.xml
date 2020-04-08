@@ -2,13 +2,27 @@
 <manifest>
    <remote name="GitLab" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
    <default revision="refs/heads/master" remote="GitLab" sync-j="4" />
-   <project name="eis-core" remote="GitLab" path="IEdgeInsights" />
-   <project name="eis-influxdb-connector" remote="GitLab" path="IEdgeInsights/InfluxDBConnector" />
-   <project name="ts-telegraf" remote="GitLab" path="IEdgeInsights/Telegraf" />
-   <project name="ts-analytics" remote="GitLab" path="IEdgeInsights/TimeSeriesAnalytics" />
-   <project name="ts-grafana" remote="GitLab" path="IEdgeInsights/Grafana" />
-   <project name="ts-discovery-creek" remote="GitLab" path="IEdgeInsights/DiscoveryCreek" />
-   <!-- <project name="eis-factoryctrl" remote="GitLab" path="IEdgeInsights/FactoryControlApp" />
-   <project name="eis-opcua-export" remote="GitLab" path="IEdgeInsights/OpcuaExport" />
-   <project name="eis-rest-data-export" remote="GitLab" path="IEdgeInsights/RestDataExport" /> -->
+   <!-- EIS core service -->
+   <project name="eis-core" path="IEdgeInsights" />
+
+   <!-- Start: EIS services for timeseries use case -->
+   <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
+   <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
+   <project name="ts-analytics" path="IEdgeInsights/TimeSeriesAnalytics" />
+   <project name="ts-grafana" path="IEdgeInsights/Grafana" />
+   <project name="ts-discovery-creek" path="IEdgeInsights/DiscoveryCreek" />
+   <!-- End: EIS services for timeseries use case -->
+
+   <!-- Start: Optional EIS services for timeseries use case (uncomment the ones required) -->
+   <!-- <project name="eis-factoryctrl" path="IEdgeInsights/FactoryControlApp" /> -->
+   <!-- <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" /> -->
+   <!-- <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" /> -->
+   <!-- End: Optional EIS services for timeseries use case (uncomment the ones required) -->
+
+   <!-- Start: Optional EIS Ingredient components for timeseries use case (uncomment the ones required) -->
+   <!-- <project name="installer" path="installer" /> -->
+   <!-- <project name="orchestrator" path="orchestrator" /> -->
+   <!-- <project name="manageability" path="manageability" /> -->
+   <!-- End: Optional EIS Ingredient components for timeseries use case (uncomment the ones required) -->
+
 </manifest>

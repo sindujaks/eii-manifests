@@ -2,20 +2,32 @@
 <manifest>
    <remote name="GitLab" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
    <default revision="refs/heads/master" remote="GitLab" sync-j="4" />
-   <project name="eis-core" remote="GitLab" path="IEdgeInsights" />
-   <project name="video-common" remote="GitLab" path="IEdgeInsights/common/openvino" />
-   <project name="video-ingestion" remote="GitLab" path="IEdgeInsights/VideoIngestion" />
-   <project name="video-analytics" remote="GitLab" path="IEdgeInsights/VideoAnalytics" />
-   <project name="video-native-visualizer" remote="GitLab" path="IEdgeInsights/Visualizer" />
-   <project name="video-web-visualizer" remote="GitLab" path="IEdgeInsights/WebVisualizer" />
-   <project name="video-imagestore" remote="GitLab" path="IEdgeInsights/ImageStore" />
-   <project name="video-tls-remote-agent" remote="GitLab" path="IEdgeInsights/TLSRemoteAgent" />
-   <project name="ts-telegraf" remote="GitLab" path="IEdgeInsights/Telegraf" />
-   <project name="ts-analytics" remote="GitLab" path="IEdgeInsights/TimeSeriesAnalytics" />
-   <project name="ts-discovery-creek" remote="GitLab" path="IEdgeInsights/DiscoveryCreek" />
-   <project name="ts-grafana" remote="GitLab" path="IEdgeInsights/Grafana" />
-   <project name="eis-influxdb-connector" remote="GitLab" path="IEdgeInsights/InfluxDBConnector" />
-   <project name="eis-factoryctrl" remote="GitLab" path="IEdgeInsights/FactoryControlApp" />
-   <project name="eis-opcua-export" remote="GitLab" path="IEdgeInsights/OpcuaExport" />
-   <project name="eis-rest-data-export" remote="GitLab" path="IEdgeInsights/RestDataExport" />
+   <!-- EIS core service -->
+   <project name="eis-core" path="IEdgeInsights" />
+
+   <!-- Start: EIS services -->
+   <project name="video-common" path="IEdgeInsights/common/openvino" />
+   <project name="video-ingestion" path="IEdgeInsights/VideoIngestion" />
+   <project name="video-analytics" path="IEdgeInsights/VideoAnalytics" />
+   <project name="video-native-visualizer" path="IEdgeInsights/Visualizer" />
+   <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
+   <project name="video-imagestore" path="IEdgeInsights/ImageStore" />
+   <project name="video-tls-remote-agent" path="IEdgeInsights/TLSRemoteAgent" />
+   <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
+   <project name="ts-analytics" path="IEdgeInsights/TimeSeriesAnalytics" />
+   <project name="ts-discovery-creek" path="IEdgeInsights/DiscoveryCreek" />
+   <project name="ts-grafana" path="IEdgeInsights/Grafana" />
+   <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
+   <project name="eis-factoryctrl" path="IEdgeInsights/FactoryControlApp" />
+   <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" />
+   <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
+   <!-- End: EIS services -->
+
+   <!-- Start: EIS Ingredient components -->
+   <project name="installer" path="installer" />
+   <project name="orchestrator" path="orchestrator" />
+   <project name="manageability" path="manageability" />
+   <project name="training-and-learning-suite" path="training-and-learining-suite" />
+   <!-- End: EIS Ingredient components -->
+
 </manifest>
