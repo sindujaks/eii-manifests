@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="GitLab" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
-   <default revision="refs/heads/master" remote="GitLab" sync-j="4" />
+   <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
+   <default revision="refs/heads/master" remote="origin" sync-j="4" />
 
    <!-- EIS core service -->
    <project name="eis-core" path="IEdgeInsights" />
