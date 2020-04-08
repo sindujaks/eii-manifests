@@ -8,6 +8,7 @@
    <!-- Start: EIS services -->
    <project name="video-common" path="IEdgeInsights/common/openvino" />
    <project name="video-ingestion" path="IEdgeInsights/VideoIngestion" />
+   <project name="aravis" path="IEdgeInsights/VideoIngestion/aravis" />
    <project name="video-analytics" path="IEdgeInsights/VideoAnalytics" />
    <project name="video-native-visualizer" path="IEdgeInsights/Visualizer" />
    <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
