@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
-   <default revision="refs/heads/master" remote="origin" sync-j="4" />
+   <default revision="master" remote="origin" sync-j="4" />
    <!-- EIS core service -->
    <project name="eis-core" path="IEdgeInsights" />
 
@@ -15,7 +15,7 @@
    <project name="video-imagestore" path="IEdgeInsights/ImageStore" />
    <project name="video-tls-remote-agent" path="IEdgeInsights/TLSRemoteAgent" />
    <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
-   <project name="ts-analytics" path="IEdgeInsights/TimeSeriesAnalytics" />
+   <project name="ts-analytics" path="IEdgeInsights/Kapacitor" />
    <project name="ts-discovery-creek" path="IEdgeInsights/DiscoveryCreek" />
    <project name="ts-grafana" path="IEdgeInsights/Grafana" />
    <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
