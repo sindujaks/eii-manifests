@@ -15,7 +15,7 @@
    <project name="video-imagestore" path="IEdgeInsights/ImageStore" />
    <project name="video-tls-remote-agent" path="IEdgeInsights/TLSRemoteAgent" />
    <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
-   <project name="ts-analytics" path="IEdgeInsights/Kapacitor" />
+   <project name="ts-kapacitor" path="IEdgeInsights/Kapacitor" />
    <project name="ts-discovery-creek" path="IEdgeInsights/DiscoveryCreek" />
    <project name="ts-grafana" path="IEdgeInsights/Grafana" />
    <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />

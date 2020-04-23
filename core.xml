@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
+   <default revision="master" remote="origin" sync-j="4" />
+
+   <!-- EIS core service -->
+   <project name="eis-core" path="IEdgeInsights" />
+
+   <!-- Start: EIS Ingredient components -->
+   <!-- <project name="installer" path="installer" /> -->
+   <!-- <project name="orchestrator" path="orchestrator" /> -->
+   <!-- <project name="manageability" path="manageability" /> -->
+   <!-- <project name="training-and-learning-suite" path="training-and-learining-suite" /> -->
+   <!-- End: EIS Ingredient components -->
+
+</manifest>

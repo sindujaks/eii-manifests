@@ -8,7 +8,7 @@
    <!-- Start: EIS services for timeseries use case -->
    <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
    <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
-   <project name="ts-analytics" path="IEdgeInsights/Kapacitor" />
+   <project name="ts-kapacitor" path="IEdgeInsights/Kapacitor" />
    <project name="ts-grafana" path="IEdgeInsights/Grafana" />
    <project name="ts-discovery-creek" path="IEdgeInsights/DiscoveryCreek" />
    <!-- End: EIS services for timeseries use case -->
