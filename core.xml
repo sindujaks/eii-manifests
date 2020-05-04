@@ -10,7 +10,7 @@
    <!-- <project name="installer" path="installer" /> -->
    <!-- <project name="orchestrator" path="orchestrator" /> -->
    <!-- <project name="manageability" path="manageability" /> -->
-   <!-- <project name="training-and-learning-suite" path="training-and-learining-suite" /> -->
+   <!-- <project name="training-and-learning-suite" path="training-and-learning-suite" /> -->
    <!-- End: EIS Ingredient components -->
 
 </manifest>
