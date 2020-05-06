@@ -21,6 +21,7 @@
    <project name="eis-factoryctrl" path="IEdgeInsights/FactoryControlApp" />
    <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
+   <project name="eis-azure-bridge" path="IEdgeInsights/EISAzureBridge" />
    <project name="eis-tools" path="IEdgeInsights/tools" />
    <!-- End: EIS services -->
 

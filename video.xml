@@ -14,6 +14,7 @@
    <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
    <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
    <project name="video-imagestore" path="IEdgeInsights/ImageStore" />
+   <project name="eis-azure-bridge" path="IEdgeInsights/EISAzureBridge" />
    <project name="eis-tools" path="IEdgeInsights/tools" />
    <!-- End: EIS services for video use case -->
 
