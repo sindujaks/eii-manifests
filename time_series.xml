@@ -11,6 +11,7 @@
    <project name="ts-kapacitor" path="IEdgeInsights/Kapacitor" />
    <project name="ts-grafana" path="IEdgeInsights/Grafana" />
    <project name="ts-discovery-creek" path="IEdgeInsights/DiscoveryCreek" />
+   <project name="eis-tools" path="IEdgeInsights/tools" />
    <!-- End: EIS services for timeseries use case -->
 
    <!-- Start: Optional EIS services for timeseries use case (uncomment the ones required) -->
