@@ -25,6 +25,11 @@
    <project name="eis-tools" path="IEdgeInsights/tools" />
    <!-- End: EIS services -->
 
+   <!-- EIS and its ingredient docs -->
+   <project name="eis-docs" path="Docs">
+      <linkfile src="README.md" dest="README.md"/>
+   </project>
+
    <!-- Start: EIS Ingredient components -->
    <project name="installer" path="installer" />
    <project name="orchestrator" path="orchestrator" />

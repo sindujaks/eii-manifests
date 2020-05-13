@@ -6,6 +6,12 @@
    <!-- EIS core service -->
    <project name="eis-core" path="IEdgeInsights" />
 
+   <!-- Start: Optional EIS and it's Ingredient docs (uncomment if required) -->
+   <!-- <project name="eis-docs" path="Docs">
+      <linkfile src="README.md" dest="README.md"/>
+   </project> -->
+   <!-- End: Optional EIS and it's Ingredient docs (uncomment if required) -->
+
    <!-- Start: EIS Ingredient components -->
    <!-- <project name="installer" path="installer" /> -->
    <!-- <project name="orchestrator" path="orchestrator" /> -->

@@ -24,11 +24,16 @@
    <!-- <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" /> -->
    <!-- End: Optional EIS services for video use case (uncomment the ones required) -->
 
+   <!-- Start: Optional EIS and it's Ingredient docs (uncomment if required) -->
+   <!-- <project name="eis-docs" path="Docs">
+      <linkfile src="README.md" dest="README.md"/>
+   </project> -->
+   <!-- End: Optional EIS and it's Ingredient docs (uncomment if required) -->
+
    <!-- Start: Optional EIS Ingredient components for video use case (uncomment the ones required) -->
    <!-- <project name="installer" path="installer" /> -->
    <!-- <project name="orchestrator" path="orchestrator" /> -->
    <!-- <project name="manageability" path="manageability" /> -->
    <!-- <project name="training-and-learning-suite" path="training-and-learning-suite" /> -->
    <!-- End: Optional EIS Ingredient components for video use case (uncomment the ones required) -->
-
 </manifest>
