@@ -11,6 +11,8 @@
    <!-- EIS core service -->
    <project name="eis-core" path="IEdgeInsights" />
 
+   <!-- EIS Sample Apps -->
+   <project name="eis-samples" path="IEdgeInsights/Samples">
    <!-- Start: EIS Ingredient components -->
    <project name="orchestrator" path="orchestrator" />
    <project name="manageability" path="manageability" />
