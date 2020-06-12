@@ -3,6 +3,11 @@
    <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
    <default revision="master" remote="origin" sync-j="4" />
 
+   <!-- EIS and its ingredient docs -->
+   <project name="eis-docs" path="Docs">
+      <linkfile src="README.md" dest="README.md"/>
+   </project>
+
    <!-- EIS core service -->
    <project name="eis-core" path="IEdgeInsights" />
 
@@ -19,21 +24,15 @@
    <!-- End: EIS services for video use case -->
 
    <!-- Start: Optional EIS services for video use case (uncomment the ones required) -->
-   <!-- <project name="eis-factoryctrl" path="IEdgeInsights/FactoryControlApp" /> -->
-   <!-- <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" /> -->
-   <!-- <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" /> -->
+   <project name="eis-factoryctrl" path="IEdgeInsights/FactoryControlApp" />
+   <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" />
+   <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
    <!-- End: Optional EIS services for video use case (uncomment the ones required) -->
 
-   <!-- Start: Optional EIS and it's Ingredient docs (uncomment if required) -->
-   <!-- <project name="eis-docs" path="Docs">
-      <linkfile src="README.md" dest="README.md"/>
-   </project> -->
-   <!-- End: Optional EIS and it's Ingredient docs (uncomment if required) -->
-
    <!-- Start: Optional EIS Ingredient components for video use case (uncomment the ones required) -->
-   <!-- <project name="installer" path="installer" /> -->
-   <!-- <project name="orchestrator" path="orchestrator" /> -->
-   <!-- <project name="manageability" path="manageability" /> -->
-   <!-- <project name="training-and-learning-suite" path="training-and-learning-suite" /> -->
+   <project name="orchestrator" path="orchestrator" />
+   <project name="manageability" path="manageability" />
+   <project name="training-and-learning-suite" path="training-and-learning-suite" />
    <!-- End: Optional EIS Ingredient components for video use case (uncomment the ones required) -->
+
 </manifest>

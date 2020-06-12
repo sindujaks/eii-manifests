@@ -3,28 +3,18 @@
    <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
    <default revision="master" remote="origin" sync-j="4" />
 
+   <!-- EIS and its ingredient docs -->
+   <project name="eis-docs" path="Docs">
+      <linkfile src="README.md" dest="README.md"/>
+   </project>
+
    <!-- EIS core service -->
    <project name="eis-core" path="IEdgeInsights" />
 
-   <project name="eis-samples" path="IEdgeInsights/Samples">
-      <linkfile src="cpp_sample_app/publisher" dest="IEdgeInsights/CppPublisher" />
-      <linkfile src="cpp_sample_app/subscriber" dest="IEdgeInsights/CppSubscriber" />
-      <linkfile src="python_sample_app/publisher" dest="IEdgeInsights/PythonPublisher" />
-      <linkfile src="python_sample_app/subscriber" dest="IEdgeInsights/PythonSubscriber" />
-      <linkfile src="go_sample_app/publisher" dest="IEdgeInsights/GoPublisher" />
-      <linkfile src="go_sample_app/subscriber" dest="IEdgeInsights/GoSubscriber" />
-   </project>
-   <!-- Start: Optional EIS and it's Ingredient docs (uncomment if required) -->
-   <!-- <project name="eis-docs" path="Docs">
-      <linkfile src="README.md" dest="README.md"/>
-   </project> -->
-   <!-- End: Optional EIS and it's Ingredient docs (uncomment if required) -->
-
    <!-- Start: EIS Ingredient components -->
-   <!-- <project name="installer" path="installer" /> -->
-   <!-- <project name="orchestrator" path="orchestrator" /> -->
-   <!-- <project name="manageability" path="manageability" /> -->
-   <!-- <project name="training-and-learning-suite" path="training-and-learning-suite" /> -->
+   <project name="orchestrator" path="orchestrator" />
+   <project name="manageability" path="manageability" />
+   <project name="training-and-learning-suite" path="training-and-learning-suite" />
    <!-- End: EIS Ingredient components -->
 
 </manifest>

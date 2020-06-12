@@ -8,6 +8,7 @@ Edge Insights Software with it's ingredients.
 The `repo` command is an executable python script, predominantly used in Android
 development workflow to simiplify the work across multiple repositories.
 More details on `repo` and it's usage can be found at below links:
+
 * [Repo command reference](https://source.android.com/setup/develop/repo)
 * [Using Repo and Git](https://wladimir-tm4pda.github.io/source/git-repo.html)
 
@@ -96,7 +97,8 @@ source code.
 
      * [core.xml](./core.xml): **Bare minimum recipe**
 
-       Recipe has EIS common libs/utils, sample apps, build and misc tools
+       Recipe has EIS common libs/utils, build tools and sample apps(please check
+       the README.md of the Samples to build and run)
 
      * [video.xml](./video.xml): **Vision recipe**
 
@@ -111,6 +113,7 @@ source code.
       > **OR** update the existing manifests as per the need and use it
       > accordingly.
       > For more details on manifest xml file syntax and semantics, please refer below links:
+      >
       > * https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.md
       > * https://docs.sel4.systems/projects/buildsystem/repo-cheatsheet.html
 
