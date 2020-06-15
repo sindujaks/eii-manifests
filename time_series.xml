@@ -11,6 +11,8 @@
    <!-- EIS core service -->
    <project name="eis-core" path="IEdgeInsights" />
 
+   <!-- EIS Sample Apps -->
+   <project name="eis-samples" path="IEdgeInsights/Samples" />
    <!-- Start: EIS services for timeseries use case -->
    <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
    <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
