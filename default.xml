@@ -34,6 +34,7 @@
    <!-- End: EIS services -->
 
    <!-- Start: EIS Ingredient components -->
+   <project name="installer" path="installer" />
    <project name="orchestrator" path="orchestrator" />
    <project name="manageability" path="manageability" />
    <project name="training-and-learning-suite" path="training-and-learning-suite" />

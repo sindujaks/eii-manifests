@@ -30,6 +30,7 @@
 
 
    <!-- Start: Optional EIS Ingredient components for timeseries use case (uncomment the ones required) -->
+   <project name="installer" path="installer" />
    <project name="orchestrator" path="orchestrator" />
    <project name="manageability" path="manageability" />
    <project name="training-and-learning-suite" path="training-and-learning-suite" />

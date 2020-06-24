@@ -32,6 +32,7 @@
    <!-- End: Optional EIS services for video use case (uncomment the ones required) -->
 
    <!-- Start: Optional EIS Ingredient components for video use case (uncomment the ones required) -->
+   <project name="installer" path="installer" />
    <project name="orchestrator" path="orchestrator" />
    <project name="manageability" path="manageability" />
    <project name="training-and-learning-suite" path="training-and-learning-suite" />
