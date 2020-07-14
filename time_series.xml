@@ -23,11 +23,9 @@
    <!-- End: EIS services for timeseries use case -->
 
    <!-- Start: Optional EIS services for timeseries use case (uncomment the ones required) -->
-   <project name="eis-factoryctrl" path="IEdgeInsights/FactoryControlApp" />
    <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
    <!-- End: Optional EIS services for timeseries use case (uncomment the ones required) -->
-
 
    <!-- Start: Optional EIS Ingredient components for timeseries use case (uncomment the ones required) -->
    <project name="installer" path="installer" />

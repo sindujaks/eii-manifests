@@ -25,6 +25,7 @@
    <!-- Start: Optional EIS services for video use case (uncomment the ones required) -->
    <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
    <project name="video-imagestore" path="IEdgeInsights/ImageStore" />
+   <project name="video-tls-remote-agent" path="IEdgeInsights/TLSRemoteAgent" />
    <project name="eis-factoryctrl" path="IEdgeInsights/FactoryControlApp" />
    <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
