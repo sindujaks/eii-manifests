@@ -22,15 +22,15 @@
    <project name="eis-tools" path="IEdgeInsights/tools" />
    <!-- End: EIS services for timeseries use case -->
 
-   <!-- Start: Optional EIS services for timeseries use case (uncomment the ones required) -->
+   <!-- Start: Optional EIS services for timeseries use case (Comment the ones not required) -->
    <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
-   <!-- End: Optional EIS services for timeseries use case (uncomment the ones required) -->
+   <!-- End: Optional EIS services for timeseries use case (Comment the ones not required) -->
 
-   <!-- Start: Optional EIS Ingredient components for timeseries use case (uncomment the ones required) -->
+   <!-- Start: Optional EIS Ingredient components for timeseries use case (Comment the ones not required) -->
    <project name="installer" path="installer" />
    <project name="orchestrator" path="orchestrator" />
    <project name="manageability" path="manageability" />
    <project name="training-and-learning-suite" path="training-and-learning-suite" />
-   <!-- End: Optional EIS Ingredient components for timeseries use case (uncomment the ones required) -->
+   <!-- End: Optional EIS Ingredient components for timeseries use case (Comment the ones not required) -->
 </manifest>

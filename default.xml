@@ -21,6 +21,7 @@
    <project name="video-web-visualizer" path="IEdgeInsights/WebVisualizer" />
    <project name="video-imagestore" path="IEdgeInsights/ImageStore" />
    <project name="video-tls-remote-agent" path="IEdgeInsights/TLSRemoteAgent" />
+   <project name="video-custom-udfs" path="IEdgeInsights/CustomUdfs" />
    <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
    <project name="ts-kapacitor" path="IEdgeInsights/Kapacitor" />
    <project name="ts-discovery-creek" path="IEdgeInsights/DiscoveryCreek" />
