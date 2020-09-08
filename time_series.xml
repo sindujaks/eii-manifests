@@ -31,6 +31,5 @@
    <project name="installer" path="installer" />
    <project name="orchestrator" path="orchestrator" />
    <project name="manageability" path="manageability" />
-   <project name="training-and-learning-suite" path="training-and-learning-suite" />
    <!-- End: Optional EIS Ingredient components for timeseries use case (Comment the ones not required) -->
 </manifest>
