@@ -32,6 +32,7 @@
    <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
    <project name="eis-azure-bridge" path="IEdgeInsights/EISAzureBridge" />
    <project name="eis-tools" path="IEdgeInsights/tools" />
+   <project name="eis-zmq-broker" path="IEdgeInsights/EISZmqBroker" />
    <!-- End: EIS services -->
 
    <!-- Start: EIS Ingredient components -->

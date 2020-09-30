@@ -31,7 +31,8 @@
    <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
    <project name="eis-azure-bridge" path="IEdgeInsights/EISAzureBridge" />
-   <!-- End: Optional EIS services for video use case (Comment the ones not required) -->
+   <project name="eis-zmq-broker" path="IEdgeInsights/EISZmqBroker" />
+   <!-- End: Optional EIS services for video use case (uncomment the ones required) -->
 
    <!-- Start: Optional EIS Ingredient components for video use case (Comment the ones not required) -->
    <project name="installer" path="installer" />

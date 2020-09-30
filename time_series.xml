@@ -25,6 +25,7 @@
    <!-- Start: Optional EIS services for timeseries use case (Comment the ones not required) -->
    <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
+   <project name="eis-zmq-broker" path="IEdgeInsights/EISZmqBroker" />
    <!-- End: Optional EIS services for timeseries use case (Comment the ones not required) -->
 
    <!-- Start: Optional EIS Ingredient components for timeseries use case (Comment the ones not required) -->
