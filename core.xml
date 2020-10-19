@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
-   <default revision="refs/tags/v2.4-RC1" remote="origin" sync-j="4" />
+   <default revision="refs/tags/v2.4-RC2" remote="origin" sync-j="4" />
 
    <!-- EIS and its ingredient docs -->
    <project name="eis-docs" path="Docs">
@@ -18,5 +18,4 @@
    <project name="orchestrator" path="orchestrator" />
    <project name="manageability" path="manageability" />
    <!-- End: EIS Ingredient components -->
-
 </manifest>
