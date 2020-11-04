@@ -14,7 +14,6 @@
    <!-- EIS Sample Apps -->
    <project name="eis-samples" path="IEdgeInsights/Samples" />
    <!-- Start: EIS Ingredient components -->
-   <project name="installer" path="installer" />
    <project name="orchestrator" path="orchestrator" />
    <project name="manageability" path="manageability" />
    <!-- End: EIS Ingredient components -->

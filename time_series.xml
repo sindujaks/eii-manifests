@@ -29,7 +29,6 @@
    <!-- End: Optional EIS services for timeseries use case (Comment the ones not required) -->
 
    <!-- Start: Optional EIS Ingredient components for timeseries use case (Comment the ones not required) -->
-   <project name="installer" path="installer" />
    <project name="orchestrator" path="orchestrator" />
    <project name="manageability" path="manageability" />
    <!-- End: Optional EIS Ingredient components for timeseries use case (Comment the ones not required) -->
