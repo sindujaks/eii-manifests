@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
-   <default revision="refs/tags/v2.4-RC5" remote="origin" sync-j="4" />
+   <default revision="refs/tags/v2.4-RC6" remote="origin" sync-j="4" />
 
    <!-- EIS and its ingredient docs -->
    <project name="eis-docs" path="Docs">
