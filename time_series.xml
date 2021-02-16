@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/IEdgeInsights" />
-   <default revision="refs/tags/v2.4" remote="origin" sync-j="4" />
+   <remote name="origin" fetch="ssh://git@gitlab.devtools.intel.com:29418/Indu/edge-insights-industrial" />
+   <default revision="master" remote="origin" sync-j="4" />
 
-   <!-- EIS and its ingredient docs -->
-   <project name="eis-docs" path="Docs">
+   <!-- EII and its ingredient docs -->
+   <project name="eii-docs" path="Docs">
       <linkfile src="README.md" dest="README.md"/>
    </project>
 
-   <!-- EIS core service -->
-   <project name="eis-core" path="IEdgeInsights" />
+   <!-- EII core service -->
+   <project name="eii-core" path="IEdgeInsights" />
 
-   <!-- EIS Sample Apps -->
-   <project name="eis-samples" path="IEdgeInsights/Samples" />
-   <!-- Start: EIS services for timeseries use case -->
-   <project name="eis-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
+   <!-- EII Sample Apps -->
+   <project name="eii-samples" path="IEdgeInsights/Samples" />
+   <!-- Start: EII services for timeseries use case -->
+   <project name="eii-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
    <project name="ts-telegraf" path="IEdgeInsights/Telegraf" />
    <project name="ts-kapacitor" path="IEdgeInsights/Kapacitor" />
    <project name="ts-grafana" path="IEdgeInsights/Grafana" />
-   <project name="ts-discovery-creek" path="IEdgeInsights/DiscoveryCreek" />
-   <project name="eis-tools" path="IEdgeInsights/tools" />
-   <!-- End: EIS services for timeseries use case -->
+   <project name="eii-tools" path="IEdgeInsights/tools" />
+   <!-- End: EII services for timeseries use case -->
 
-   <!-- Start: Optional EIS services for timeseries use case (Comment the ones not required) -->
-   <project name="eis-opcua-export" path="IEdgeInsights/OpcuaExport" />
-   <project name="eis-rest-data-export" path="IEdgeInsights/RestDataExport" />
-   <project name="eis-zmq-broker" path="IEdgeInsights/EISZmqBroker" />
-   <!-- End: Optional EIS services for timeseries use case (Comment the ones not required) -->
+   <!-- Start: Optional EII services for timeseries use case (Comment the ones not required) -->
+   <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
+   <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
+   <project name="eii-zmq-broker" path="IEdgeInsights/EIIZmqBroker" />
+   <!-- End: Optional EII services for timeseries use case (Comment the ones not required) -->
 
-   <!-- Start: Optional EIS Ingredient components for timeseries use case (Comment the ones not required) -->
-   <project name="orchestrator" path="orchestrator" />
-   <project name="manageability" path="manageability" />
-   <!-- End: Optional EIS Ingredient components for timeseries use case (Comment the ones not required) -->
 </manifest>
