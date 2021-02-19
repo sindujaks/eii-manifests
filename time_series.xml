@@ -24,7 +24,7 @@
    <!-- Start: Optional EII services for timeseries use case (Comment the ones not required) -->
    <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
-   <project name="eii-zmq-broker" path="IEdgeInsights/EIIZmqBroker" />
+   <project name="eii-zmq-broker" path="IEdgeInsights/EISZmqBroker" />
    <!-- End: Optional EII services for timeseries use case (Comment the ones not required) -->
 
 </manifest>

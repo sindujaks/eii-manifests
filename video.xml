@@ -29,8 +29,8 @@
    <project name="eii-factoryctrl" path="IEdgeInsights/FactoryControlApp" />
    <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
-   <project name="eii-azure-bridge" path="IEdgeInsights/EIIAzureBridge" />
-   <project name="eii-zmq-broker" path="IEdgeInsights/EIIZmqBroker" />
+   <project name="eii-azure-bridge" path="IEdgeInsights/EISAzureBridge" />
+   <project name="eii-zmq-broker" path="IEdgeInsights/EISZmqBroker" />
    <!-- End: Optional EII services for video use case (uncomment the ones required) -->
 
 </manifest>
