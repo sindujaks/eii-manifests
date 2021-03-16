@@ -13,7 +13,7 @@
 
    <!-- EII core libraries -->
    <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
-   <project name="eii-messagebus" path="IEdgeInsights/common/libs/EISMessageBus" />
+   <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus" />
 
    <!-- EII Sample Apps -->
    <project name="eii-samples" path="IEdgeInsights/Samples" />
@@ -28,7 +28,7 @@
    <!-- Start: Optional EII services for timeseries use case (Comment the ones not required) -->
    <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
-   <project name="eii-zmq-broker" path="IEdgeInsights/EISZmqBroker" />
+   <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
    <!-- End: Optional EII services for timeseries use case (Comment the ones not required) -->
 
 </manifest>
