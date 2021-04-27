@@ -9,11 +9,11 @@
    </project>
 
    <!-- EII core service -->
-   <project name="eii-core" path="IEdgeInsights" revision="refs/tags/v2.4-OS-RC3" />
+   <project name="eii-core" path="IEdgeInsights" />
 
    <!-- EII core libraries -->
    <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
-   <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus" revision="refs/tags/v2.4-OS-RC3" />
+   <project name="eii-messagebus" path="IEdgeInsights/common/libs/EIIMessageBus" />
 
    <!-- EII Sample Apps -->
    <project name="eii-samples" path="IEdgeInsights/Samples" />
@@ -32,7 +32,7 @@
    <project name="eii-factoryctrl" path="IEdgeInsights/FactoryControlApp" />
    <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
    <project name="eii-rest-data-export" path="IEdgeInsights/RestDataExport" />
-   <project name="eii-azure-bridge" path="IEdgeInsights/AzureBridge" revision="refs/tags/v2.4-OS-RC3" />
+   <project name="eii-azure-bridge" path="IEdgeInsights/AzureBridge" />
    <project name="eii-tools" path="IEdgeInsights/tools" />
    <project name="eii-zmq-broker" path="IEdgeInsights/ZmqBroker" />
    <!-- End: EIS services -->
