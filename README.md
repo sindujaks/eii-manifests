@@ -36,7 +36,7 @@ source code.
 
      ```sh
      $ cd <work-dir>
-     $ repo init -u "git@github.com:open-edge-insights/eii-manifests.git"
+     $ repo init -u "https://github.com/open-edge-insights/eii-manifests.git"
      ```
 
      This will create a .repo folder with `eii-manifests` source code
@@ -61,7 +61,7 @@ source code.
         `Using a developer manifest branch to point to developer branch/s in multi-repo
 
         ```sh
-        $ repo init -u "git@github.com:open-edge-insights/eii-manifests.git" -b <manifest_branch_name>
+        $ repo init -u "https://github.com/open-edge-insights/eii-manifests.git" -b <manifest_branch_name>
         ```
 
         In above command, `manifest_branch_name` refers to remote branch in `eii-manifests`
@@ -72,7 +72,7 @@ source code.
         run the below command:
 
         ```sh
-        $ repo init -u "git@github.com:open-edge-insights/eii-manifests.git"
+        $ repo init -u "https://github.com/open-edge-insights/eii-manifests.git"
         ```
     ----
 
