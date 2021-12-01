@@ -7,7 +7,7 @@
    <include name="include/base_video.xml" />
 
    <!-- Start: Optional EII services for video use case (Comment the ones not required) -->
-   <project name="eii-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
+   <project name="eii-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" fetch="https://github.com/open-edge-insights"/>
    <project name="video-imagestore" path="IEdgeInsights/ImageStore" />
    <project name="eii-factoryctrl" path="IEdgeInsights/FactoryControlApp" />
    <project name="eii-opcua-export" path="IEdgeInsights/OpcuaExport" />
