@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <manifest>
-   <remote name="origin" fetch="https://github.com/open-edge-insights" />
-   <default revision="master" remote="origin" sync-j="4" />
+   <remote fetch="https://github.com/sindujaks" name="private" /><remote fetch="https://github.com/open-edge-insights" name="origin" />
+   <default remote="origin" revision="master" sync-j="4" />
 
-   !-- EII core services -->
+   !-- EII core services --&gt;
    <include name="include/base_eii.xml" />
 
 </manifest>
