@@ -4,7 +4,7 @@
    <project name="eii-core" path="IEdgeInsights" />
 
    
-   <project name="eii-etcd-ui" path="IEdgeInsights/EtcdUI" />
+   <project name="eii-etcd-ui" path="IEdgeInsights/EtcdUI" remote="private" />
 
    
    <project name="eii-c-utils" path="IEdgeInsights/common/util/c" />
