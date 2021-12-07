@@ -7,7 +7,7 @@
    <project name="eii-influxdb-connector" path="IEdgeInsights/InfluxDBConnector" />
    <project name="ts-telegraf" path="IEdgeInsights/Telegraf" remote="private" />
    <project name="ts-kapacitor" path="IEdgeInsights/Kapacitor" />
-   <project name="ts-grafana" path="IEdgeInsights/Grafana" />
+   <project name="ts-grafana" path="IEdgeInsights/Grafana" remote="private" />
    <project name="eii-tools" path="IEdgeInsights/tools" />
    
 </manifest>
